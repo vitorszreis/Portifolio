@@ -20,6 +20,10 @@
     color: white;
 }
 
+.imageAboutPage {
+    width: 100%;
+}
+
 /* cada card com 280px de altura e apontador como seta do mouse */
 .servicesText.card {
     height: 280px;
@@ -51,4 +55,12 @@
 .servicesText:hover {
     border: 2px solid purple;
 
+}
+
+.sevicesText:hover{
+    border: 2px solid purple;
+
+}
+.navbarScroll.navbarDark {
+    background-color: black;
 }

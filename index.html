@@ -14,14 +14,35 @@
 
 <body>
     
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <a class="navbar-brand" href="#">Vitor</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-nav ms-auto">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Vitor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                </ul>
+               
+            </div>
         </div>
     </nav>
+    
 
     <section class="bgimage" id="home">
         <!-- container que ocupa 100% de largura é o container fluid -->
@@ -34,10 +55,47 @@
             </div>
         </div>
     </section>
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Sobre mim</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.png" class="imageAboutPage" alt="">
+
+                </div>
+                <div class="col-lg-8">
+                    <div class="col-lg-8">
+                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                           
+                        </p>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Nome: Yuri Medeiros</li>
+                                    <li>Idade: X</li>
+                                    <li>Ocupação: Fullstack Developer</li>
+          
+          
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                        </div>
+                    </div>
+          </section>
+          
+          
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="services">
         <div class="container">
-        <h1 class text="text-center">Serviços</h1>
+            <h1 class="text-center">Serviços</h1>
         <div class="row">
 
             <div class="col-lg-4 mt-4">
@@ -82,6 +140,7 @@
             </div>
 
         </div>
+
 
         <div class="row">
 
