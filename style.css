@@ -1,15 +1,68 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFC222 !important;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'League Spartan', serif;
+    font-size: 16px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFC222;
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+    background-color: #FFC222;
+    color: #000000;
+    padding: 8px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item:last-child .nav-link:hover {
+    background-color: #ffffff;
+    color: #FFC222;
+}
+
+.navbar-toggler {
+    border-color: #FFC222;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 194, 34, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/heroimage.jpg');
     background-size:cover;
     position:relative;
+    
 }
-/* configuração do texto */
+
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 6rem;
+    font-family: 'Playfair Display', sans-serif;
 }
 .hero_desc {
     font-size: 2rem;
+    font-family: sans-serif,  Courier, monospace;
+
 }
 .hero-text {
     text-align: center;
@@ -24,14 +77,12 @@
     width: 100%;
 }
 
-/* cada card com 280px de altura e apontador como seta do mouse */
 .servicesText.card {
     height: 280px;
     cursor: pointer;
   }
 
 
-/* ícones com tamanho 36px e alinhados ao centro */
 .servicesIcon {
     font-size: 36px;
     text-align: center;
@@ -39,30 +90,27 @@
 }
 
 
-/* título dos cards ao centro */
 .card-title {
     text-align: center;
 }
 
 
-/* ao serem selecionados, os ícones cards mudam de cor */
 .card:hover .servicesIcon {
-    color: purple;
+    color: #FFC222;
 }
 
 
-/* ao ser selecionado, o card terá borda colorida */
 .servicesText:hover {
-    border: 2px solid purple;
+    border: 2px solid #FFC222;
 
 }
 
 .sevicesText:hover{
-    border: 2px solid purple;
+    border: 2px solid #FFC222;
 
 }
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: rgb(30, 30, 30);
 }
 .social-icons {
     font-size: 36px;
@@ -76,10 +124,10 @@
 
 
 .fab {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #footer {
-    background-color: purple;
+    background-color: #FFC222;
     text-align: center;
 }
 #about, #services, #portfolio, #contact {
