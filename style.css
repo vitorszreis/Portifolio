@@ -73,15 +73,83 @@
     color: white;
 }
 
-.imageAboutPage {
-    width: 100%;
+#about {
+    font-family: 'Playfair Display', serif;
+    background-color: #f8f9fa;
+    padding: 50px 0;
 }
 
+#about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#about .imageAboutPage {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+#about p {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    color: #333131;
+    text-align: justify;
+}
+
+#about .info-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#about .info-list li {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #333131;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.languages {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+.language-card {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-family:  sans-serif;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 10px 15px; 
+}
+
+#services .container h1{
+
+    font-family: 'Playfair Display';
+
+}
 .servicesText.card {
     height: 280px;
     cursor: pointer;
   }
 
+.servicesText.card h4{
+    font-family: 'League Spartan';
+    font-size: 1.8em;
+}   
+
+.servicesText.card p{
+    font-family: sans-serif;
+}  
 
 .servicesIcon {
     font-size: 36px;
