@@ -8,3 +8,11 @@ window.onscroll = function() {
         header.classList.remove('navbarDark')
     }
 }
+
+document.querySelectorAll('.custom-btn').forEach((button) => {
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert('Projeto em breve!');
+        // window.location.href = "link-do-projeto";
+    });
+});
