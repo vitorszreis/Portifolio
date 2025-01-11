@@ -248,7 +248,48 @@
     font-size: large;
 
 
+
+
 }
+
+#contact .yellow-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ebebeb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #FFC222;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #FFC222;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFC222;
+    color: #212121;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
 .social-icons {
     font-size: 36px;
     cursor: pointer;
